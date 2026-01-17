@@ -22,7 +22,7 @@ export default function Navbar({ theme, setTheme }) {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src={theme === "dark" ? images.logo : images.whiteLogo} 
+              src={theme === "dark" ? images.logo : images.whitelogo} 
               alt="IC Frontier Capital" 
               className="h-14 w-auto sm:h-16 lg:h-20 transition-transform hover:scale-105" 
             />
