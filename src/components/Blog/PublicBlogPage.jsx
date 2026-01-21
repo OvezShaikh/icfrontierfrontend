@@ -114,7 +114,7 @@ export default function PublicBlogPage() {
                 {post.image && (
                   <div className="h-56 lg:h-64 overflow-hidden">
                     <img 
-                      src={`${config.API_URL}/${post.image}`} 
+                      src={post.image || "/placeholder.png"} 
                       alt={post.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     />

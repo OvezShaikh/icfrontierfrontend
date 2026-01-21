@@ -23,7 +23,7 @@ export default function BlogPost({ post, fetchPosts, setEditPostData }) {
       <p className="text-gray-700 mt-1">{post.content}</p>
       {post.image && (
         <img
-          src={`${config.API_URL}/${post.image}`}
+          src={post.image || "/placeholder.png"}
           alt={post.title}
           className="mt-2 max-h-60 object-cover"
         />

@@ -61,7 +61,7 @@ export default function UserPage() {
             <div key={post._id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
               {post.image && (
                 <img 
-                  src={`${config.API_URL}/${post.image}`} 
+                  src={post.image || "/placeholder.png"} 
                   alt={post.title}
                   className="w-full h-48 object-cover"
                 />

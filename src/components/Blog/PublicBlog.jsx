@@ -140,7 +140,7 @@ export default function PublicBlog() {
                                     {post.image && (
                                         <div className="h-56 lg:h-64 overflow-hidden bg-gradient-to-br from-blue-500/10 to-indigo-500/10">
                                             <img
-                                                src={`${config.API_URL}/${post.image}`}
+                                                src={post.image || "/placeholder.png"} // optional fallback
                                                 alt={post.title}
                                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                             />

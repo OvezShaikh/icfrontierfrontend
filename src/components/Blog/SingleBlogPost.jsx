@@ -83,7 +83,7 @@ export default function SingleBlogPost() {
             className="rounded-3xl overflow-hidden shadow-2xl mb-12 lg:mb-20"
           >
             <img 
-              src={`${config.API_URL}/${post.image}`} 
+              src={post.image || "/placeholder.png"} 
               alt={post.title}
               className="w-full h-[60vh] lg:h-[70vh] object-cover"
             />
