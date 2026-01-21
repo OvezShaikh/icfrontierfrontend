@@ -44,7 +44,6 @@ export default function BlogForm({ fetchPosts, editPostData, setEditPostData }) 
         await axios.post(`${config.API_URL}/api/posts`, formData, {
           headers: { 
             Authorization: `Bearer ${token}`,
-            "Content-Type": "multipart/form-data"
           },
         });
       }
