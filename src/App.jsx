@@ -52,7 +52,7 @@ export default function App() {
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/testimonials" element={<Testimonials />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/thank-you" element={<ThankYou />} />
+              <Route path="/thankyou" element={<ThankYou />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/philosophy" element={<Philosophy />} />
               <Route path="/login" element={<Login />} />
