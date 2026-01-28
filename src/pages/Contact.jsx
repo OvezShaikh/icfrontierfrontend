@@ -26,7 +26,7 @@ export default function Contact() {
                 <input
                   type="hidden"
                   name="_next"
-                  value={`/thankyou`}
+                  value="https://icfrontiercapital.com/thankyou"
                 />
 
                 <input
