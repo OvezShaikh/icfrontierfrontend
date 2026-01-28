@@ -26,7 +26,7 @@ export default function Contact() {
                 <input
                   type="hidden"
                   name="_next"
-                  value={`${import.meta.env.VITE_API_URL}/thankyou`}
+                  value={`/thankyou`}
                 />
 
                 <input
