@@ -63,13 +63,15 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-6">Services</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Investment Banking</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Private Equity</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Venture Capital</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Financial Advisory</a></li>
-            </ul>
+            <h4 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+             Disclaimer
+            </h4>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              IC Frontier Capital does not provide investment advice to the public.
+              All content on this website is for informational purposes only.
+              Trading and investing involve risk, and past performance is not
+              indicative of future results.
+            </p>
           </div>
 
           {/* Contact Info */}

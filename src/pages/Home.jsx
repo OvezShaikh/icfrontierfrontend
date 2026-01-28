@@ -259,9 +259,9 @@ export default function Home() {
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 text-center">
               {[
-                { num: "Equilibrium — Mean Reversion", label: "Price oscillates within consensus bounds as information is largely digested. Action is selective, disciplined, and microstructure-driven.", icon: MdBalance },
-                { num: "Expansion — Discovery", label: "New information disrupts consensus, driving price discovery and directional exploration beyond prior structure.", icon: MdTrendingUp },
-                { num: "Dislocation — Forced Action", label: "Structural stress compels deterministic participant behavior, creating high-conviction opportunities under elevated volatility.", icon: MdSecurity }
+                { num: "Equilibrium", label: "Price oscillates within consensus bounds as information is largely digested. Action is selective, disciplined, and microstructure-driven.", icon: MdBalance },
+                { num: "Expansion", label: "New information disrupts consensus, driving price discovery and directional exploration beyond prior structure.", icon: MdTrendingUp },
+                { num: "Dislocation", label: "Structural stress compels deterministic participant behavior, creating high-conviction opportunities under elevated volatility.", icon: MdSecurity }
               ].map((stat, index) => (
                 <motion.div
                   key={stat.label}
